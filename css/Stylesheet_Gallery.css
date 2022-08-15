@@ -1,0 +1,696 @@
+
+
+
+
+/*LAYOUT*/
+
+body, html{
+	height: 100%;
+	margin:0;
+
+}
+
+.topnav {
+	
+  overflow: hidden;
+  background-color: #333;
+  margin: auto;
+	width: 100%;
+	position: fixed;
+	z-index:1;
+	
+
+
+}
+
+.home {
+	float: left;
+	color: #f2f2f2;
+	padding:1em 1em 1em 1em;
+	text-decoration: none;
+	font-size:120%;
+}
+
+.workshop{
+	float: left;
+	color: #f2f2f2;
+	padding:1em 1em 1em 1em;
+	text-decoration: none;
+	font-size:120%;
+}
+
+.bikes {
+	float: left;
+	color: #f2f2f2;
+	padding:1em 1em 1em 1em;
+	text-decoration: none;
+	font-size:120%;
+}
+
+.galleryactive {
+	float: left;
+	color: #6DC9C4;
+	padding:1em 1em 1em 1em;
+	text-decoration: none;
+	font-size:120%;
+}
+
+.shopride {
+	float: left;
+	color: #f2f2f2;
+	padding:1em 1em 1em 1em;
+	text-decoration: none;
+	font-size:120%;
+}
+
+.contact {
+	float: left;
+	color: #f2f2f2;
+	padding:1em 1em 1em 1em;
+	text-decoration: none;
+	font-size:120%;
+}
+
+
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+.ForeGround{
+	Padding-Top:20em;
+	text-align: center;
+}
+
+
+table {
+	width:100%;
+	table-layout: fixed;
+	margin:2em 0em 1em 0em;
+}
+
+
+
+
+td{
+	border-right: 1px solid black;
+	padding-top:1em;
+	
+}
+
+td{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top:1em;
+	text-align:center;
+	
+}
+
+
+
+
+.footercontent {
+	font-size:120%;
+	display:block;
+	text-align:left;
+	text-align:top;
+	
+}
+	
+
+
+
+footer {
+	background-color: white;
+	
+}
+
+.footertable, .footertable tr, .footertable th, .footertable td { 
+	border:none;
+}
+
+
+
+
+.footercontent{
+	padding:0em 0em 4em 2em;
+}
+
+
+.content{
+	margin:0% 15%;
+	border-right: 1px solid #D3D3D3;
+	border-left: 1px solid #D3D3D3;
+	background-color:black;
+
+	
+}
+
+
+.SRtable , .SRtable tr, .SRtable th, .SRtable td {
+	border:none;
+}
+
+
+ .SRtable td {
+	padding:1em 1em;
+	
+	border-bottom:1px solid #D3D3D3;
+	vertical-align:bottom;
+	text-align:center;
+}
+
+
+
+
+
+
+
+.shopimage{
+	width:100%;
+	
+}
+
+
+
+
+
+
+
+
+/*TYPOGRAPHY*/
+
+
+
+@font-face {
+	font-family:Brandonreg;
+	src: url("Brandon_reg.otf");
+}
+
+@font-face {
+	font-family:Brandonlight;
+	src: url("Brandon_light.otf");
+}
+
+@font-face {
+	font-family:Brandonlightit;
+	src: url("Brandon_light_it.otf");
+}
+
+@font-face {
+	font-family:Brandonbld;
+	src: url("Brandon_bld.otf");
+}
+
+@font-face {
+	font-family:Brandonbldit;
+	src: url("Brandon_bld_it.otf");
+}
+
+@font-face {
+	font-family:Brandonthin;
+	src: url("Brandon_thin.otf");
+}
+
+@font-face {
+	font-family:Brandonthinit;
+	src: url("Brandon_thin_it.otf");	
+}
+
+
+
+
+
+.topnav {
+	font-family:Brandonlight;
+
+}
+
+.topnav ul {
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+
+li {
+display: inline-block;
+}
+
+.overlay-content {
+	font-family:Brandonlight;
+	}
+	
+.logoText{
+	padding-top:0.5em;
+	font-size:300%;
+	font-family:Brandonbld;
+	
+}
+
+
+
+#supportHeader{
+	padding-top:1em;
+	font-size:2em;
+	font-family:Brandonreg;
+	text-align:center;
+}
+
+
+
+.author {color:grey;}
+
+q{
+	font-family:Brandonthin;
+  font-size:2em;
+}
+
+
+
+.bikelink{
+	color:grey;
+	text-decoration: none;
+	font-size: 100%;
+	font-family:Brandonreg;
+	text-align:bottom;
+
+}
+
+
+
+footer {
+	font-family:Brandonlight;
+	color:#f2f2f2;
+	color:grey;
+}
+
+
+.copyright {
+	font-family:Brandonreg;
+	color:black;
+}
+
+.imagetext{
+	font-family:Brandonreg;
+	color:white;
+	
+}
+
+
+
+
+/*COLOR SCHEME*/
+
+.separator {
+	height:1px;
+	width:100%;
+	border-bottom:2em solid #333;
+
+	
+}
+.line-separator{
+	height:1px;
+	width:35%;
+	border-bottom:1px solid black;
+	margin:auto;
+	padding:2em 0em 0em 0em;
+
+}
+
+
+.contentseparator{
+	height:1px;
+	width:20%;
+	border-bottom:1px solid black;
+	margin:auto;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMAGES*/
+
+
+.bg {
+
+background-color:#F8F8F8;
+padding-bottom:10%;
+border-bottom:1px solid black;
+
+	
+}
+
+
+
+.ForeGroundlogo{
+	display: block;
+	width: 30%;
+	margin: auto;
+	position: left;
+	
+}
+
+
+.tablelogo{
+	display: block;
+	width: 50%;
+	margin: auto;
+}
+
+
+
+
+
+img.logo {
+	width:5em;
+	padding:0em 1em;
+
+}
+
+img.menulines {
+	width:2em;
+	padding:1em 1em;
+	position:absolute;
+	right:10px;
+	top:20px;
+	cursor:pointer;
+
+}
+
+
+.quotemark {
+	display: block;
+	width: 4%;
+	margin: auto;
+	padding:3em 0em 1em 0em;
+	position: left;
+}
+
+.fblogo{ 
+   background-repeat: no-repeat;
+	width: 4em;
+       height: 4em;
+
+   background-size: cover;
+     background-image: url('../images/fblogolight.png');
+   display: inline-block;
+   
+}
+
+.inslogo{ 
+   background-repeat: no-repeat;
+	width: 4em;
+       height: 4em;
+
+   background-size: cover;
+     background-image: url('../images/inslogolight.png');
+   display: inline-block;
+   
+}
+
+
+
+#myBtn {
+
+  position: fixed;
+   display: none;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+
+.backtotop{
+	width:5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*LINK*/
+
+a:hover{
+   
+	color:#6DC9C4;
+	-webkit-transition:color 0.3s ease-in;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+ a:link {
+    text-decoration: none;
+}
+
+
+a[href^="tel:"], a[href^="mailto:"]{
+  color: grey;
+
+}
+
+a[href^="tel:"]:hover,  a[href^="mailto:"]:hover {
+  color: #6DC9C4;
+
+}
+
+
+
+.fblogo:hover{
+	background-image: url('../images/fblogodark.png');
+}
+
+
+
+.inslogo:hover{
+	background-image: url('../images/inslogodark.png');
+}
+
+#myBtn:hover {
+  background-color: #FFFDD0;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+
+@media only screen and (max-device-width: 1024px) {
+    .background {
+        background-attachment: scroll;
+    }
+}
+
+@media screen and (max-width: 965px){
+	
+	img.logo {
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width:5em;
+	padding:0em 0.5em;
+
+}
+	
+.home, .workshop, .bikes, .gallery, .shopride, .contact{
+	display:none;
+}
+
+
+.footercontent {
+	font-size:4vw;
+	
+}
+
+
+
+.backtotop{
+	width:10%;
+}
+
+	.vertical{
+ display:block;
+}
+	
+}
+
+@media screen and (min-width: 965px) {   
+    
+.menulines{
+	display:none;
+	float:left;
+	}
+  
+}
+
+
+@media screen and (min-width: 1500px) {   
+    
+.backtotop{
+	width:4%;
+}
+
+	  
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+
+
+

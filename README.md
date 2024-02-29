@@ -18,3 +18,7 @@ The buiness holds a weekely team event which is show cased in a promo video, thi
 Conatct Us page:
 baisc conatct page showing their location via Google maps. Added ability to send any questions through this page to them:
 ![Contact us_page](https://github.com/AndriyKozin/Goat_Cycles/assets/31294731/20fd032f-1ffa-42ee-a723-ade4ba928d38)
+
+
+Website is fully responsive for desktop/ Tablet and mobile View:
+![Respnsive_view](https://github.com/AndriyKozin/Goat_Cycles/assets/31294731/bfaac5ed-1b0d-45fe-8bcb-58624c496bab)
